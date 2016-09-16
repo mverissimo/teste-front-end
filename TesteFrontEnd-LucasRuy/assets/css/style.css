@@ -1,0 +1,1032 @@
+/*
+==== CONTEUDO ==============
+        1. GERAL
+        2. SECTION CLASSES
+        3. FASE 1 CLASSES
+        4. FASE 2 CLASSES
+        5. FASE 3 CLASSES
+        6. FASE 5 CLASSES
+        7. ANIMAçÃO
+        8. RESPONSIVO
+         8.1. DESKTOP
+         8.2. TABLET
+         8.3. CELULAR
+============================
+*/
+
+/* GERAL
+================================================== */
+@font-face {
+     font-family: Montserrat-Bold;
+     src: url('../fonts/Montserrat-Bold.otf');
+}
+@font-face {
+     font-family: Montserrat-Black;
+     src: url('../fonts/Montserrat-Black.otf');
+}
+@font-face {
+     font-family: Montserrat-ExtraBold;
+     src: url('../fonts/Montserrat-ExtraBold.otf');
+}
+@font-face {
+     font-family: Montserrat-Hairline;
+     src: url('../fonts/Montserrat-Hairline.otf');
+}
+@font-face {
+     font-family: Montserrat-Light;
+     src: url('../fonts/Montserrat-Light.otf');
+}
+@font-face {
+     font-family: Montserrat-UltraLight;
+     src: url('../fonts/Montserrat-UltraLight.otf');
+}
+@font-face {
+     font-family: Montserrat-Black;
+     src: url('../fonts/Montserrat-Black.otf');
+}
+@font-face {
+     font-family: Montserrat-Regular;
+     src: url('../fonts/Montserrat-Regular.otf');
+}
+@font-face {
+     font-family: Montserrat-SemiBold;
+     src: url('../fonts/Montserrat-SemiBold.otf');
+}
+h1, h2, h3, h4, h5, h6{	
+	font-family: 'Montserrat-Black', sans-serif;
+}
+p{	
+	font-family: 'Montserrat-Light', sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.center-divs{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION CLASSES
+================================================== */
+#fase-1 {
+	background: url(../images/fase-1/fase-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    width: 100%;
+    height: 980px;
+}
+#fase-2 {
+    background: url(../images/fase-2/background/fase-2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+#fase-3 {
+    background-color: #FFF;
+    width: 100%;
+    height: 100%;
+    color: #959595;
+    margin-bottom: 10em;
+}
+#fase-3 h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #13B5EA;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+#fase-3 p{
+    font-size: 16px;
+    text-align: center;   
+}
+#fase-4{
+    background: url(../images/fase-4/background/fase-4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 870px;
+    padding: 10em 0 10em 0;
+    color: #F6F6F6;
+}
+#fase-4 h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 25px;
+    text-align: center;  
+}
+#fase-4 b{
+    display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: -18px;
+}
+#fase-4 p{
+    font-family: 'Montserrat-Light', sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+#fase-5{
+    width: 100%;
+    height: 765px;
+    padding: 10em 0 10em 0;
+    color: #646464;
+}
+#fase-5 h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 25px;
+    text-align: left; 
+    margin: 7em 0 0 0; 
+}
+#fase-5 b{
+    display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: -18px;
+}
+/* FASE 1 CLASSES
+================================================== */
+.top-logo{
+	width: 250px;
+	height: auto;
+	margin: 0 auto;
+	padding: 12em 0 0 0;
+}
+.top-text{
+	text-align: center;
+	margin: 0 0 0 0;
+}
+.top-text h1{	
+	color: #E5AB26;
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+.top-text p{
+	color: #F6F6F6;
+	font-size: 1.1em;
+}
+.btn{
+	border-radius: 1em;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 8px 40px 8px 40px;
+    margin-top: 1.8em;
+}
+.btn-yellow{	
+	background-color: #F2B822;
+	border:2px solid #F2B822;
+	color: #F6F6F6;  
+	-webkit-transition: background-color 0.5s ease-out;
+	-moz-transition: background-color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+	margin: 20px;
+}
+.btn-yellow:hover{
+	background-color: transparent;
+	border:2px solid #F2B822;
+	color: #F2B822;
+}
+
+/* FASE 2 CLASSES
+================================================== */
+.hero-slide {
+	display:none
+}
+.hero-img{
+    display: inline-block;
+    float: left;
+    margin-top: 60px;
+}
+.hero-img-1{	
+    width: 50%;
+    position: absolute;
+    top: -12px;
+    left: 0;
+    z-index: 1;
+}
+.hero-img-2{	
+    width: 38%;
+    position: absolute;
+    top: -30px;
+    left: 80px;
+    z-index: 1;
+}
+.hero-img-3{	
+    width: 65%;
+    position: absolute;
+    top: -2px;
+    left: -160px;
+    z-index: 1;
+}
+.hero-info{	
+    display: inline-block;
+    float: right;
+    width: 50%;
+    padding-left: 35px;
+    margin-top: 60px;
+    color: #F6F6F6;
+}
+.hero-info h2{
+	font-family: 'Montserrat-Bold', sans-serif;
+	font-size: 30px;
+}
+.hero-info b{
+	display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: -18px;
+}
+.hero-info p{
+	font-size: 18px;
+}
+.hero-menu{
+	margin: 5em 0 0 0;
+}
+.hero-btn{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 110px;
+    width: 110px;
+	border: none;
+	margin: 0 0 0 0;
+	color: transparent;
+}
+.hero-btn-1{
+	background-image: url(../images/fase-2/persons/menu/top.png);
+}
+.hero-btn-2{
+	background-image: url(../images/fase-2/persons/menu/center.png);
+}
+.hero-btn-3{
+	background-image: url(../images/fase-2/persons/menu/bottom.png);
+}
+
+/* FASE 3 CLASSES
+================================================== */
+.items-skill{
+    text-align: center;
+    text-transform: uppercase;
+    color: #F6F6F6;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.items-skill:hover{
+    -webkit-transition: all 300ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 300ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 300ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 300ms ease-in;
+    transform: scale(1.1);
+}
+.item-1{
+    background-color: #13B5EA;
+}
+.item-2{
+    background-color: #E2548D;
+}
+.item-3{
+    background-color: #FFB74D;
+}
+.item-comment{
+    width: 70%;
+}
+.items-skill h4{    
+    font-size: 20px;
+    margin: 25px 0 -10px 0;
+}
+.items-skill p{
+    font-family: 'Montserrat-UltraLight';
+    font-size: 12px !important;
+}
+.items-skill img{
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+.img-fix{    
+    width: 150px!important;
+}
+
+/* FASE 5 CLASSES
+================================================== */
+.info{
+    width: 50%;
+}
+
+
+/* ANIMAÇÃO
+================================================== */
+
+.animate-left {
+    position: relative;
+    -webkit-animation: animateleft 0.5s;
+    animation: animateleft 0.5s
+}
+@-webkit-keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+/* RESPONSIVO
+================================================== */
+
+/*  ==== DESKTOP ==== */
+@media (max-width: 1440px) {
+    #fase-1{
+        height: 600px;
+    }
+    .top-logo{
+        padding: 4em 0 0 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    #fase-1{
+        height: 600px;
+    }
+    .top-logo{
+        padding: 1em 0 0 0;
+    }
+    .hero-menu {
+        margin: 5em 0px 0px 3em;
+    }
+    .hero-info{
+        padding-left: 0;
+    }
+}
+
+/* ==== TABLET ==== */
+@media (max-width: 768px) {
+    #fase-1{
+        height: 600px;
+    }
+    .top-logo{
+        padding: 3em 0 0 0;
+    }
+    .hero-menu{
+        display: none;
+    }
+    .hero-img-1 {
+        width: 50%;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        z-index: 1;
+    }
+    .hero-img-2 {
+        width: 35%;
+        position: absolute;
+        top: 65px;
+        left: 18px;
+        z-index: 1;
+    }
+    .hero-img-3 {
+        width: 50%;
+        position: absolute;
+        top: 123px;
+        left: -8px;
+        z-index: 1;
+    }
+    .hero-info {
+        margin-top: 95px;
+    }
+    .hero-info h2 {
+        font-size: 20px;
+    }
+    .hero-info b {
+        margin-top: -10px;
+    }
+    #fase-3 h2 {
+        font-size: 50px;
+    }
+    #fase-5 {
+        padding: 8em 0 0em 0;
+        color: #646464;
+    }
+    #fase-5 h2 {
+        text-align: center;
+    }
+    .robot{
+        position: relative;
+        top: -25em;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 25em;
+    }
+}
+
+/* ==== CELULAR ==== */
+
+@media (max-width: 736px) {
+    .info{
+        width: 50%;
+        display: inline-block;
+    }
+    .robot{
+        width: 40%;
+        display: inline-block;
+        position: relative;
+        top: -20em;
+        left: 28em;
+    }
+}
+
+@media (max-width: 732px) {
+    #fase-4{        
+        height: 750px;
+    }
+    .hero-menu {
+        display: none;
+    }
+    .hero-img-1 {
+        width: 50%;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        z-index: 1;
+    }
+    .hero-img-2 {
+        width: 35%;
+        position: absolute;
+        top: 65px;
+        left: 18px;
+        z-index: 1;
+    }
+    .hero-img-3 {
+        width: 50%;
+        position: absolute;
+        top: 123px;
+        left: -8px;
+        z-index: 1;
+    }
+    .hero-info {
+        margin-top: 95px;
+    }
+    .hero-info h2 {
+        font-size: 20px;
+    }
+    .hero-info b {
+        margin-top: -10px;
+    }
+    #fase-3 h2 {
+        font-size: 50px;
+    }
+    #fase-5 {
+        padding: 8em 0 0em 0;
+        color: #646464;
+    }
+    #fase-5 h2 {
+        text-align: center;
+    }
+    .robot{
+        position: relative;
+        top: -25em;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 25em;
+    }
+}
+
+@media (max-width: 668px) {
+    #fase-1{
+        height: 800px;
+    }
+    #fase-4{        
+        padding: 30px 0 30px 0;
+        height: 650px;
+    }
+    #fase-5 {        
+        padding: 70px 0 0px 0;       
+    }
+    .top-logo {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        padding: 8em 0 0 0;
+    }
+    .top-text p {
+        font-size: 14px;
+    }
+    .hero-info{
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .hero-info h2 {
+        font-size: 20px;
+    }
+    .hero-info b {
+        margin-top: -5px;
+    }
+    .hero-info p {
+        font-size: 14px;
+    }
+    .hero-img-1{
+        width: 55%;
+        position: absolute;
+        top: 11em;
+        left: 0;
+        z-index: 1;
+    }
+    .hero-img-2 {
+        width: 44%;
+        position: absolute;
+        top: 142px;
+        left: -5px;
+        z-index: 1;
+    }
+    .hero-img-3 {
+        width: 75%;
+        position: absolute;
+        top: 160px;
+        left: 90px;
+        z-index: 1;
+    }
+    #fase-3 h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: -5px;
+    }
+    #fase-4 h2 {
+        font-size: 24px;
+    }
+    #fase-4 p {
+        font-size: 18px;
+    }
+    #fase-5 h2 {
+        text-align: center;
+    }
+    #fase-5 p{
+        font-size: 18px;
+    }
+    .center-divs{
+        display: block;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .items-skill{
+        width: 100%;
+        display:block;
+    }
+    .robot{
+        position: relative;
+        top: -25em;
+        left: 0;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 28em;
+        left: 0;
+    }
+    .hero-menu{
+        display: none;
+    }
+}
+@media (max-width: 640px) {
+    #fase-1{
+        height: 800px;
+    }
+    #fase-4{        
+        padding: 30px 0 30px 0;
+        height: 650px;
+    }
+    #fase-5 {        
+        padding: 70px 0 0px 0;       
+    }
+    .top-logo {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        padding: 8em 0 0 0;
+    }
+    .top-text p {
+        font-size: 14px;
+    }
+    .hero-info{
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .hero-info h2 {
+        font-size: 20px;
+    }
+    .hero-info b {
+        margin-top: -5px;
+    }
+    .hero-info p {
+        font-size: 14px;
+    }
+    .hero-img-1{
+        width: 55%;
+        position: absolute;
+        top: 129px;
+        left: 0;
+        z-index: 1;
+    }
+    .hero-img-2 {
+        width: 44%;
+        position: absolute;
+        top: 106px;
+        left: -5px;
+        z-index: 1;
+    }
+    .hero-img-3 {
+        width: 75%;
+        position: absolute;
+        top: 125px;
+        left: 90px;
+        z-index: 1;
+    }
+    #fase-3 h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: -5px;
+    }
+    #fase-4 h2 {
+        font-size: 24px;
+    }
+    #fase-4 p {
+        font-size: 18px;
+    }
+    #fase-5 h2 {
+        text-align: center;
+    }
+    #fase-5 p{
+        font-size: 18px;
+    }
+    .center-divs{
+        display: block;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .items-skill{
+        width: 50%;
+        display:block;
+    }
+    .robot{
+        position: relative;
+        top: -25em;
+        left: 95px;
+        width: 100%;
+    }
+    .info{
+        width: 60%;
+        text-align: center;
+        position: relative;
+        top: 28em;
+        left: 120px;
+    }
+    .hero-menu{
+        display: none;
+    }
+}
+@media (max-width: 425px) { 
+    #fase-1{
+        height: 800px;
+    }
+    #fase-4{        
+        padding: 30px 0 30px 0;
+        height: 650px;
+    }
+    #fase-5 {        
+        padding: 70px 0 0px 0;       
+    }
+    .top-logo {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        padding: 8em 0 0 0;
+    }
+    .top-text h1 {
+        font-size: 3em;
+    }
+    .top-text p {
+        font-size: 18px;
+    }
+    .hero-info{
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .hero-info h2 {
+        font-size: 20px;
+    }
+    .hero-info b {
+        margin-top: -5px;
+    }
+    .hero-info p {
+        font-size: 14px;
+    }
+    .hero-img-1{
+        width: 80%;
+        position: absolute;
+        top: 11em;
+        left: 0;
+        z-index: 1;
+    }
+    .hero-img-2 {
+        width: 60%;
+        position: absolute;
+        top: 142px;
+        left: -5px;
+        z-index: 1;
+    }
+    .hero-img-3 {
+        width: 100%;
+        position: absolute;
+        top: 160px;
+        left: 5px;
+        z-index: 1;
+    }
+    #fase-3 h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: -5px;
+    }
+    #fase-4 h2 {
+        font-size: 24px;
+    }
+    #fase-4 p {
+        font-size: 18px;
+    }
+    #fase-5 h2 {
+        text-align: center;
+    }
+    #fase-5 p{
+        font-size: 18px;
+    }
+    .center-divs{
+        display: block;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .items-skill{
+        width: 100%;
+        display:block;
+    }
+    .robot{
+        position: relative;
+        top: -25em;
+        left: 0;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 28em;
+        left: 0;
+    }
+    .hero-menu{
+        display: none;
+    }
+}
+@media (max-width: 375px) {
+    #fase-1{
+        height: 700px;
+    }
+    #fase-4{        
+        padding: 30px 0 30px 0;
+        height: 600px;
+    }
+    #fase-5 {        
+        padding: 70px 0 0px 0;       
+    }
+    .top-logo {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        padding: 5em 0 0 0;
+    }
+    .top-text p {
+        font-size: 16px;
+    }
+    .hero-info{
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .hero-info h2 {
+        font-size: 20px;
+    }
+    .hero-info b {
+        margin-top: -5px;
+    }
+    .hero-info p {
+        font-size: 14px;
+    }
+    .hero-img-1{
+        width: 80%;
+        position: absolute;
+        top: 14em;
+        left: 0;
+        z-index: 1;
+    }
+    .hero-img-2 {
+        width: 70%;
+        position: absolute;
+        top: 138px;
+        left: -5px;
+        z-index: 1;
+    }
+    .hero-img-3 {
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        left: 5px;
+        z-index: 1;
+    }
+    #fase-3 h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: -5px;
+    }
+    #fase-4 h2 {
+        font-size: 24px;
+    }
+    #fase-4 p {
+        font-size: 18px;
+    }
+    #fase-5 h2 {
+        text-align: center;
+    }
+    #fase-5 p{
+        font-size: 18px;
+    }
+    .center-divs{
+        display: block;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .items-skill{
+        width: 100%;
+        display:block;
+    }
+    .robot{
+        position: relative;
+        top: -25em;
+        left: 0;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 24em;
+        left: 0;
+    }
+}
+@media (max-width: 320px) {
+    #fase-1{
+        height: 650px;
+    }
+    #fase-4{        
+        padding: 30px 0 30px 0;
+        height: 600px;
+    }
+    #fase-5 {        
+        padding: 70px 0 0px 0;       
+    }
+    .top-logo {
+        width: 250px;
+        height: auto;
+        margin: 0 auto;
+        padding: 1em 0 0 0;
+    }
+    .top-text p {
+        font-size: 14px;
+    }
+    .hero-info{
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .hero-info h2 {
+        font-size: 20px;
+    }
+    .hero-info b {
+        margin-top: -5px;
+    }
+    .hero-info p {
+        font-size: 14px;
+    }
+    .hero-img-1{
+        width: 80%;
+        position: absolute;
+        top: 17em;
+        left: 0;
+        z-index: 1;
+    }
+    .hero-img-2 {
+        width: 70%;
+        position: absolute;
+        top: 195px;
+        left: -5px;
+        z-index: 1;
+    }
+    .hero-img-3 {
+        width: 100%;
+        position: absolute;
+        top: 240px;
+        left: 5px;
+        z-index: 1;
+    }
+    #fase-3 h2 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: -5px;
+    }
+    #fase-4 h2 {
+        font-size: 24px;
+    }
+    #fase-4 p {
+        font-size: 18px;
+    }
+    #fase-5 h2 {
+        text-align: center;
+    }
+    #fase-5 p{
+        font-size: 18px;
+    }
+    .center-divs{
+        display: block;
+        -webkit-justify-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .items-skill{
+        width: 100%;
+        display:block;
+    }
+    .robot{
+        position: relative;
+        top: -25em;
+        left: 0;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 18em;
+        left: 0;
+    }
+}
