@@ -1,0 +1,303 @@
+/*----------MEDIA----------*/
+@media only screen and (max-width: 1600px) {
+	#sliderNavigation {
+		display: none;		
+	}
+	
+}
+@media only screen and (max-width: 1450px) {
+	#sliderSection {		
+		
+		#slideshow { 
+			width: 100%;
+			margin-left: 0;
+			.slide {
+				width: 100%;
+			}
+			#slide02 {
+				width: 75%;
+			}
+		}	
+		.slideshowTextContent { 
+			margin-right: 100px;			
+		}	
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	#skillsSection {
+		#skillsSectionContent {
+			width: 100%;
+
+			.skillContainer {
+				margin: 20px auto;
+				display: block;
+			}
+			#htmlSkill {
+				float: none;
+			}
+			#cssSkill {
+				float: none;
+			}
+			#jsSkill {	
+				float: none;	
+			}
+		}
+	}	
+	#sliderSection {
+		#slideshow {
+			#slide03 {
+				img {
+					width: 60%;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.content {
+		max-width: 89%;
+		padding: 0 5.5%;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	#contentContainer {
+		width: 96%;
+		padding: 0 2%;
+		text-align: center;
+	}
+	#fifthSection {
+		img {
+			float: none;
+		}
+		#fifthSectionContent {	
+			margin-top: 60px;		
+			text-align: center;			
+			float: none;
+			width: 89%;
+			padding: 0 5.5%;		
+		}
+	}	
+	#sliderSection {
+		#slideshow {			
+			width: 100%;
+			#slide02 {
+				width: 100%;
+			}
+			.slide {
+				img {
+					float: none;
+					width: 100%;
+				}
+			}
+			#slide03 {
+				img {
+					width: 100%;
+				}
+			}
+			.slideshowTextContent {
+				float: none;
+				margin-left: 0;
+				padding-top: 0;	
+				padding: 0 50px;			
+
+				h2 {
+					font-size: 2.5em;
+					span {
+						font-size: 2.8em; 
+					}
+				}
+				p {
+					font-size: 1.5em;
+					font-weight: normal;
+					margin-top: 25px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-height: 600px) {
+	.content {
+		padding-bottom: 100px; 
+	}
+}
+@media only screen and (max-width: 960px) {
+	.content {
+		#logo {
+			width: 40%;
+			margin-bottom: 50px; 
+		}
+		h1 {			
+			font-size: 6em;
+		}
+
+		p {
+			color: #ffffff;
+			font-size: 1.7em;
+			margin-bottom: 50px;
+		}
+
+		#topSectionBtn {
+			width: 60%;
+
+			a {
+				font-size: 2em;
+			} 
+		}
+	}
+	#sliderSection {
+		#slideshow {
+			#slide01 {
+				img {
+					width: 40%;
+				}
+			}
+			#slide02 {
+				img {
+					width: 30%;
+				}
+			}
+			#slide03 {
+				img {
+					width: 50%;
+				}
+			}
+		}
+	}
+	#skillsSection {
+		padding: 150px 2%;
+		width: 96%;
+	
+		h2 {			
+			font-size: 6.3em;			
+		}
+		p {			
+			font-size: 2em;
+			width: 100%;			
+		}
+		
+	}
+}
+@media only screen and (max-width: 530px) {
+	.content {
+		#logo {
+			width: 50%;
+		}
+
+		h1 {			
+			font-size: 4em;				
+		}
+
+		p {
+			font-size: 1.5em;
+			width: 100%;
+		}
+	}
+	#sliderSection {
+		#slideshow {			
+			#slide01 {
+				img {
+					width: 60%;
+				}
+			}
+			#slide02 {
+				img {
+					width: 48%;
+				}
+			}
+			#slide03 {
+				img {
+					width: 75%;
+				}
+			}
+			.slideshowTextContent {		
+				padding: 0 10px;
+				h2 {
+					font-size: 2.5em;
+					span {
+						font-size: 1.8em; 
+					}
+				}
+				p {
+					margin-bottom: 55px;
+				}
+			}
+		}
+	}
+	#skillsSection {
+	
+		h2 {			
+			font-size: 3.8em;			
+		}
+		p {			
+			font-size: 1.5em;
+			width: 100%;			
+		}
+		
+	}
+	#fourthSection {
+		#kingContent {
+			img {
+				width: 100%;
+			}
+			h2 {
+				font-size: 2em;
+			}
+			span {
+				font-size: 2em;
+			}
+			p {
+				font-size: 2em;
+				width: 100%;			
+			}
+		}
+	}
+	#fifthSection {
+		img {
+			width: 100%;
+		}
+		#fifthSectionContent {
+			h2 {
+				span {
+					font-size: 1.8em;
+				}
+			}
+			p {
+				font-size: 1.5em;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 360px) {
+	#sliderSection {
+		#slideshow {			
+			#slide01 {
+				img {
+					width: 72%;
+				}
+			}
+			#slide02 {
+				img {
+					width: 65%;
+				}
+			}
+			#slide03 {
+				img {
+					width: 100%;
+				}
+			}
+			.slideshowTextContent {		
+				padding: 0 10px;
+				h2 {
+					font-size: 2.5em;
+					span {
+						font-size: 1.8em; 
+					}
+				}
+				p {
+					margin-bottom: 55px;
+				}
+			}
+		}
+	}
+}
