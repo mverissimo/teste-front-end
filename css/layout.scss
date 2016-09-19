@@ -1,0 +1,286 @@
+/*----------Variables----------*/
+
+/*----------General----------*/
+$font: 'Montserrat', sans-serif, helvetica;
+$fontSize: 10px;
+
+/*----------#TopSection----------*/
+$topSectionH1: #e5ab26;
+$btnBgCollor: #f0b521;
+$topSectionParagraphCollor: #ffffff;
+$topSectionBg: url(../imgs/backgrounds/topSectionBackground.png);
+
+/*----------#skillsSection----------*/
+$skillsH2: #13b5ea;
+$skillsSectionParagraphCollor: #a5a5a5;
+$skillContainerParagraphCollor: #ffffff;
+$htmlBgCollor: #13b5ea;
+$cssBgCollor: #e2548d;
+$jsBgCollor: #ffb74d;	
+
+/*----------#sliderSection----------*/
+$sliderSectionBg: url(../imgs/backgrounds/sliderSectionBackground.png);
+
+/*----------#fourthSection----------*/
+$fourthSectionBg: url(../imgs/backgrounds/fourthSectionBackground.png);
+
+/*----------#fifthSection----------*/
+$fifthSectionTextCollor: #646464;
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	@extend html;
+	background-color: #000000;
+	font-family: $font;
+	text-align: center;	
+	font-size: $fontSize;
+}
+.centerBackground {
+	background-repeat:no-repeat;
+	background-position: center top;
+}
+#topSection {	
+	background-image: $topSectionBg;
+	min-height: 100%;	
+	width: 100%;	
+}
+.content {
+	margin: 0 auto;
+	max-width: 1100px;
+
+	#logo {
+		margin-top: 10%;
+		
+	}
+
+	h1 {
+		color: $topSectionH1;
+		font-size: 6.9em;
+		font-weight: bold;
+		margin-bottom: 30px;
+	}
+
+	p {
+		color: $topSectionParagraphCollor;
+		font-size: 2.9em;
+		margin-bottom: 50px;
+		line-height: 35px;
+	}
+
+	#topSectionBtn {
+		background-color: $btnBgCollor;
+		border-radius: 30px;
+		height: 60px;
+		line-height: 55px;
+		margin: 0 auto;
+		width: 320px;
+
+		a {
+			color: #ffffff;
+			font-size: 2.8em;
+			font-weight: bold;
+			text-decoration: none;
+		} 
+	}
+}
+#sliderSection {
+	background: #ffffff $sliderSectionBg no-repeat;
+	height: 660px;
+	overflow: hidden;
+	padding-top: 40px;
+
+	#slideshow { 
+		width: 1450px;
+		margin-left: 150px;
+		position: relative;
+		height: 630px;
+
+
+		img {
+			float: right;
+		}
+		.slide {
+			position: absolute;
+			display: block;
+			left: 0;
+			width: 78%;
+			bottom: 0;
+		}
+		#slide02 {
+			left: -150%;
+		}
+		#slide03 {
+			left: -150%;
+		}
+
+		.slideshowTextContent {
+			color: #ffffff;
+			float: right;
+			margin-left: 20px;
+			text-align: left;
+			padding-top:10%;
+			width: 300px;
+
+			h2 {
+				font-size: 2.5em;
+				span {
+					font-size: 2.8em; 
+				}
+			}
+			p {
+				font-size: 1.5em;
+				font-weight: normal;
+				margin-top: 25px;
+				line-height: 30px;
+			}
+		}
+		#sliderNavigation { 
+			float: right;		
+			width: 92px;	
+			padding-top: 5%;
+
+			ul {
+				list-style: none;
+
+				li {
+					cursor: pointer;
+					img {
+						margin-bottom: 30px;
+					}
+				}
+			}			
+		}
+	}	
+}
+
+.sectionBlock {
+	background-color: #ffffff;
+	height: auto;
+	padding: 150px 0;
+}
+#skillsSection {
+	padding-top: 50px;
+	
+	h2 {
+		color: $skillsH2;
+		font-size: 7.3em;
+		font-weight: bold;
+		margin-bottom: 30px;
+	}
+	p {
+		color: $skillsSectionParagraphCollor;
+		font-size: 2em;
+		width: 825px;
+		margin: 30px auto;
+		line-height: 25px;
+	}
+	#skillsSectionContent { 		
+		width: 960px;
+		margin: 0 auto;
+		
+		.skillContainer {
+			width: 300px;
+			height: 380px;
+			margin-right: 20px;
+			color: #ffffff;
+			h3 {
+				font-size: 2.08em;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}	
+			p {
+				color: $skillContainerParagraphCollor;
+				font-size: 1.2em;
+				font-weight: lighter;
+				width: 60%;
+				margin: 0 auto;
+			}		
+
+			img {
+				margin: 30px 0;
+			}
+		}
+		#htmlSkill {
+			background-color: $htmlBgCollor;
+			float: left;
+		}
+		#cssSkill {
+			background-color: $cssBgCollor;
+			float: left;
+		}
+		#jsSkill {
+			background-color: $jsBgCollor;	
+			float: right;		
+		}
+	}
+}
+#skillsSection:before, #skillsSection:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#fourthSection {
+	background-image: $fourthSectionBg;
+	#kingContent { 
+		color: #ffffff; 
+		
+		img {
+			margin-bottom: 80px;
+		}
+		h2 {
+			font-size: 3em;
+			margin-bottom: 20px;
+		}
+		span {
+			font-size: 2.7em;
+		}
+		p {
+			font-size: 2em;
+			width: 60%;
+			margin: 0 auto;
+			line-height: 35px
+		}
+	}
+}
+
+#fifthSection {
+	img {
+		float: right;
+	}
+	#fifthSectionContent {
+		@extend #kingContent;
+		color: $fifthSectionTextCollor;
+		text-align: left;
+		width: 33%;
+		padding-left: 2%;
+		float: left;
+		h2 {
+			font-size: 2.8em;
+			margin-bottom: 20px;
+
+			span {
+				font-size: 2.5em;
+			}
+		}
+		p {
+			font-size: 1.8em;
+			width: 100%;
+		}
+	}
+}
+
+#fifthSection:before, #fifthSection:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#contentContainer {
+	width: 1100px;
+	margin: 0 auto;
+}
+@import 'mediaQueries';
